@@ -15,3 +15,5 @@ provider "google" {
   region      = var.region
   credentials = var.service_account_key_file == null ? null : file(var.service_account_key_file)
 }
+
+#this is file
